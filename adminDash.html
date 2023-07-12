@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/e18165c0b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="adminDash.css">
+    <style>
+        img {
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
 
         <div class="header">
-    
+                <div class = "box">
+                    <form name="search">
+                        <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();" >
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
         </div>
 
         <div class="sidebar">
@@ -39,11 +50,12 @@
             <div class="misc">
 
                 <div class="misc1">
+                    <div class="title"> Announcement </div>
 
                 </div>
 
                 <div class="misc2">
-                    
+                    <div class="title"> Trending </div>
                 </div>
 
             </div>
