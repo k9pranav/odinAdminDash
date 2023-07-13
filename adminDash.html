@@ -16,12 +16,24 @@
     <div class="container">
 
         <div class="header">
+            <div class="topHeader">
                 <div class = "box">
-                    <form name="search">
-                        <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();" >
-                        <i class="fa fa-search"></i>
+                    <form name="search" class="search">
+                        <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();" placeholder="Search..">
+                        <img src="search.png" height="30px">
+                        <!-- i class="fa fa-search"></i -->
                     </form>
                 </div>
+            </div>
+            <div class="bottomHeader">
+                <div class="bottomIntro"> Hi There!! </div>
+
+                <div class="makePost">
+                    <button class="postButton"> New </button>
+                    <button class="postButton"> Add </button>
+                    <button class="postButton"> Post </button>
+                </div>
+            </div>
         </div>
 
         <div class="sidebar">
