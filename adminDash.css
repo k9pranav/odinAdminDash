@@ -59,10 +59,59 @@ body {
 .sidebar {
     background-color: lightblue;
     border-radius: 15px;
+    overflow: hidden;
     box-shadow: 6px 6px;
     margin: 15px;
+    grid-column: 1;
+    grid-template-rows: 300px;
+    list-style-type: none;
 
 }
+
+.navHeading {
+    display: flex;
+    align-items: center;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.dashImage {
+    width: 43px;
+    padding-right: 8px;
+    background-color: lightblue;
+    height: 43px;
+}
+
+.navBar {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: lightblue;
+}
+
+.navStyle1 {
+    list-style-type: none;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+
+}
+
+ul li {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.navIcon {
+    width: 30px;
+    background-color: lightblue;
+}
+
 
 .article {
     display: grid;
